@@ -61,14 +61,19 @@ Appropriately labels the data set with descriptive variable names: lines 44 to 4
        6. Step 4 - add descriptive names to a relevant variable
        
 6.a) Activity labels are obtained from local file (line 44)
+
 6.b) A function is defined to translate  activity codes to descriptive names (lines 45-47)
+
 6.c) An object is created translating each activity code for the full data (line 48)
+
 6.d) The translation is added as an column to the full dataset (line 49)
 
 
        7. Step 5 - extract relevant data and summarize data
 7.a) All variables containing “mean” or “std” in their text are identified (line 54)
+
 7.b) The relevant data are selected: the columns indicated in line 54 and columns 561:564, which have the relevant labels (line 55)
+
 7.c) An object NewDS is created to store the summarized mean for each measure, grouped by activity and subject (line 58)
 
        8. Step 6 - create new data table with the summarized data
