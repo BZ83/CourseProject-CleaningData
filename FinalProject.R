@@ -58,5 +58,5 @@ SelData <- FullData[,c(RelCols, 561:564)]
 NewDS <- summarise_each(group_by(SelData, SubjectID, ActivityDescription), funs(mean))
 
 # Creating new table for the new dataset
-write.table(NewDS, "C:/Users/breno/OneDrive/Estudo/Coursera/GettingCleaningData/CourseProject-CleaningData/TidyDataSet.txt")
+write.table(NewDS, "C:/Users/breno/OneDrive/Estudo/Coursera/GettingCleaningData/CourseProject-CleaningData/TidyDataSet.txt", row.name=FALSE)
 
