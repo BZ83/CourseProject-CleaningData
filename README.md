@@ -32,14 +32,23 @@ Appropriately labels the data set with descriptive variable names: lines 44 to 4
        4. Step 2 - load and name the data
        
 4.a) directory is set for location of Train Data (line 9)
+
 4.b) data frames are created for the Train Data (line 10), the Subject ID (line 11) and the activity labels (line 12)
+
 4.c) an object “TrainFullData” is created that merges the data with subject ID and the activity labels (line 15)
+
 4.d) subject ID and Labels are properly named (lines 18 and 19)
+
 4.e) names for measure variables are obtained from file (line 20) and applied to dataset (line 21)
+
 4.f) directory is set for location of Test Data (line 26)
+
 4.g) data frames are created for the Test Data (line 27), the Subject ID (line 28) and the activity labels (line 29)
+
 4.h) an object “TestFullData” is created that merges the data with subject ID and the activity labels (line 32)
+
 4.i) subject ID and Labels are properly named (lines 35 and 36)
+
 4.j) names for measure variables are obtained from file (line 37) and applied to dataset (line 38)
 
 
