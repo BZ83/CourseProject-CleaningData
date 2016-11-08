@@ -1,0 +1,173 @@
+Codebook – Processed Accelerometer Experiment Data
+
+SubjectID – 1 – number identifying one of 30 subjects of experimentation
+
+ActivityDescription – 2 – descriptive designation of one of six possible activities:
+                                                              WALKING
+                                                              WALKING_UPSTAIRS
+                                                              WALKING_DOWNSTAIRS
+                                                              SITTING
+                                                              STANDING
+                                                              LAYING
+
+tBodyAcc-std()-X - 3 - mean of original observations of measure
+
+tBodyAcc-std()-Y - 4 - mean of original observations of measure
+
+tBodyAcc-std()-Z - 5 - mean of original observations of measure
+
+tGravityAcc-std()-X - 6 - mean of original observations of measure
+
+tGravityAcc-std()-Y - 7 - mean of original observations of measure
+
+tGravityAcc-std()-Z - 8 - mean of original observations of measure
+
+tBodyAccJerk-std()-X - 9 - mean of original observations of measure
+
+tBodyAccJerk-std()-Y - 10 - mean of original observations of measure
+
+tBodyAccJerk-std()-Z - 11 - mean of original observations of measure
+
+tBodyGyro-std()-X - 12 - mean of original observations of measure
+
+tBodyGyro-std()-Y - 13 - mean of original observations of measure
+
+tBodyGyro-std()-Z - 14 - mean of original observations of measure
+
+tBodyGyroJerk-std()-X - 15 - mean of original observations of measure
+
+tBodyGyroJerk-std()-Y - 16 - mean of original observations of measure
+
+tBodyGyroJerk-std()-Z - 17 - mean of original observations of measure
+
+tBodyAccMag-std() - 18 - mean of original observations of measure
+
+tGravityAccMag-std() - 19 - mean of original observations of measure
+
+tBodyAccJerkMag-std() - 20 - mean of original observations of measure
+
+tBodyGyroMag-std() - 21 - mean of original observations of measure
+
+tBodyGyroJerkMag-std() - 22 - mean of original observations of measure
+
+fBodyAcc-std()-X - 23 - mean of original observations of measure
+
+fBodyAcc-std()-Y - 24 - mean of original observations of measure
+
+fBodyAcc-std()-Z - 25 - mean of original observations of measure
+
+fBodyAccJerk-std()-X - 26 - mean of original observations of measure
+
+fBodyAccJerk-std()-Y - 27 - mean of original observations of measure
+
+fBodyAccJerk-std()-Z - 28 - mean of original observations of measure
+
+fBodyGyro-std()-X - 29 - mean of original observations of measure
+
+fBodyGyro-std()-Y - 30 - mean of original observations of measure
+
+fBodyGyro-std()-Z - 31 - mean of original observations of measure
+
+fBodyAccMag-std() - 32 - mean of original observations of measure
+
+fBodyBodyAccJerkMag-std() - 33 - mean of original observations of measure
+
+fBodyBodyGyroMag-std() - 34 - mean of original observations of measure
+
+fBodyBodyGyroJerkMag-std() - 35 - mean of original observations of measure
+
+tBodyAcc-mean()-X - 36 - mean of original observations of measure
+
+tBodyAcc-mean()-Y - 37 - mean of original observations of measure
+
+tBodyAcc-mean()-Z - 38 - mean of original observations of measure
+
+tGravityAcc-mean()-X - 39 - mean of original observations of measure
+
+tGravityAcc-mean()-Y - 40 - mean of original observations of measure
+
+tGravityAcc-mean()-Z - 41 - mean of original observations of measure
+
+tBodyAccJerk-mean()-X - 42 - mean of original observations of measure
+
+tBodyAccJerk-mean()-Y - 43 - mean of original observations of measure
+
+tBodyAccJerk-mean()-Z - 44 - mean of original observations of measure
+
+tBodyGyro-mean()-X - 45 - mean of original observations of measure
+
+tBodyGyro-mean()-Y - 46 - mean of original observations of measure
+
+tBodyGyro-mean()-Z - 47 - mean of original observations of measure
+
+tBodyGyroJerk-mean()-X - 48 - mean of original observations of measure
+
+tBodyGyroJerk-mean()-Y - 49 - mean of original observations of measure
+
+tBodyGyroJerk-mean()-Z - 50 - mean of original observations of measure
+
+tBodyAccMag-mean() - 51 - mean of original observations of measure
+
+tGravityAccMag-mean() - 52 - mean of original observations of measure
+
+tBodyAccJerkMag-mean() - 53 - mean of original observations of measure
+
+tBodyGyroMag-mean() - 54 - mean of original observations of measure
+
+tBodyGyroJerkMag-mean() - 55 - mean of original observations of measure
+
+fBodyAcc-mean()-X - 56 - mean of original observations of measure
+
+fBodyAcc-mean()-Y - 57 - mean of original observations of measure
+
+fBodyAcc-mean()-Z - 58 - mean of original observations of measure
+
+fBodyAcc-meanFreq()-X - 59 - mean of original observations of measure
+
+fBodyAcc-meanFreq()-Y - 60 - mean of original observations of measure
+
+fBodyAcc-meanFreq()-Z - 61 - mean of original observations of measure
+
+fBodyAccJerk-mean()-X - 62 - mean of original observations of measure
+
+fBodyAccJerk-mean()-Y - 63 - mean of original observations of measure
+
+fBodyAccJerk-mean()-Z - 64 - mean of original observations of measure
+
+fBodyAccJerk-meanFreq()-X - 65 - mean of original observations of measure
+
+fBodyAccJerk-meanFreq()-Y - 66 - mean of original observations of measure
+
+fBodyAccJerk-meanFreq()-Z - 67 - mean of original observations of measure
+
+fBodyGyro-mean()-X - 68 - mean of original observations of measure
+
+fBodyGyro-mean()-Y - 69 - mean of original observations of measure
+
+fBodyGyro-mean()-Z - 70 - mean of original observations of measure
+
+fBodyGyro-meanFreq()-X - 71 - mean of original observations of measure
+
+fBodyGyro-meanFreq()-Y - 72 - mean of original observations of measure
+
+fBodyGyro-meanFreq()-Z - 73 - mean of original observations of measure
+
+fBodyAccMag-mean() - 74 - mean of original observations of measure
+
+fBodyAccMag-meanFreq() - 75 - mean of original observations of measure
+
+fBodyBodyAccJerkMag-mean() - 76 - mean of original observations of measure
+
+fBodyBodyAccJerkMag-meanFreq() - 77 - mean of original observations of measure
+
+fBodyBodyGyroMag-mean() - 78 - mean of original observations of measure
+
+fBodyBodyGyroMag-meanFreq() - 79 - mean of original observations of measure
+
+fBodyBodyGyroJerkMag-mean() - 80 - mean of original observations of measure
+
+fBodyBodyGyroJerkMag-meanFreq() - 81 - mean of original observations of measure
+
+angle(Z,gravityMean) - 82 - mean of original observations of measure
+
+Label – 83 – number from 1 to 6 identifying one of the activities described in variable 2 - ActivityDescription
