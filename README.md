@@ -14,7 +14,7 @@ The script assumes the data has already been downloaded.
 
 This section indicates in which lines each of the following courser requirements can be found:
 
-2.a) Merges the training and the test sets to create one data set: lines 1 to 49 – see exact descriptions in steps below
+2.a) Merges the training and the test sets to create one data set: lines 9 to 49 – see exact descriptions in steps below
 
 2.b)Extracts only the measurements on the mean and standard deviation for each measurement: lines 54 and 55
 
@@ -31,25 +31,21 @@ Appropriately labels the data set with descriptive variable names: lines 44 to 4
 
        4. Step 2 - load and name the data
        
-4.a) directory is set for location of Train Data (line 9)
+4.a) data frames are created for the Train Data (line 10), the Subject ID (line 11) and the activity labels (line 12)
 
-4.b) data frames are created for the Train Data (line 10), the Subject ID (line 11) and the activity labels (line 12)
+4.b) an object “TrainFullData” is created that merges the data with subject ID and the activity labels (line 15)
 
-4.c) an object “TrainFullData” is created that merges the data with subject ID and the activity labels (line 15)
+4.c) subject ID and Labels are properly named (lines 18 and 19)
 
-4.d) subject ID and Labels are properly named (lines 18 and 19)
+4.d) names for measure variables are obtained from file (line 20) and applied to dataset (line 21)
 
-4.e) names for measure variables are obtained from file (line 20) and applied to dataset (line 21)
+4.e) data frames are created for the Test Data (line 27), the Subject ID (line 28) and the activity labels (line 29)
 
-4.f) directory is set for location of Test Data (line 26)
+4.f) an object “TestFullData” is created that merges the data with subject ID and the activity labels (line 32)
 
-4.g) data frames are created for the Test Data (line 27), the Subject ID (line 28) and the activity labels (line 29)
+4.g) subject ID and Labels are properly named (lines 35 and 36)
 
-4.h) an object “TestFullData” is created that merges the data with subject ID and the activity labels (line 32)
-
-4.i) subject ID and Labels are properly named (lines 35 and 36)
-
-4.j) names for measure variables are obtained from file (line 37) and applied to dataset (line 38)
+4.h) names for measure variables are obtained from file (line 37) and applied to dataset (line 38)
 
 
 
